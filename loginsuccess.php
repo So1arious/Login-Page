@@ -3,7 +3,7 @@
 <?php
 	session_start();
 	if(!
-isset($_SESSION['LOGGEDIN']||$_SESSION['loggedin']==false){
+isset($_SESSION['loggedin']||$_SESSION['loggedin']==false){
 		header("location:index.php");
 	}
 ?>
