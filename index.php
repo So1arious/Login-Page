@@ -24,7 +24,7 @@
 	<input type="text" name="username"><br>
 	password:<br>
 	<input type="text" name="password"><br>
-	<input type="sumbit" value="login">
+	<input type="submit" value="login">
 </form>
 </body>
 </html>
