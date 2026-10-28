@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+
 <?php
 	session_start();
 	$username="user";
@@ -15,8 +15,8 @@
 		}
 	}
 ?>
-<html>
 
+<!DOCTYPE HTML>
 <html>
 <body>
 <form method = "post" action="index.php">
