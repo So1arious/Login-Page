@@ -4,7 +4,7 @@
 	$username="user";
 	$password="password";
 	if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true) {
-		header("location:loginsucess.php");
+		header("location:loginsuccess.php");
 		echo "Success";
 	}
 	if(isset($_POST['username']) && isset($_POST['password'])) {
