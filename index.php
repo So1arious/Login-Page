@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <?php
 	session_start();
-	$username="root";
-	$password=" ";
+	$username="user";
+	$password="password";
 	if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true) {
 		header("location:loginsuccess.php");
 		echo "Success";
