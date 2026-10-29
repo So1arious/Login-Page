@@ -1,7 +1,9 @@
 <!--loginsuccess.php-->
+<?php
+session_start();
+?>
 <!DOCTYPE HTML>
 <?php
-	session_start();
 	if(!
 isset($_SESSION['loggedin']||$_SESSION['loggedin']==false){
 		header("location:index.php");
@@ -12,4 +14,3 @@ isset($_SESSION['loggedin']||$_SESSION['loggedin']==false){
 <h3> You have logged in successfully!</h3>
 </body>
 </html>
-
